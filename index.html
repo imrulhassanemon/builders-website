@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>builders-website</title> 
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'color-green':"#ABEF5F",
+                'color-gray':'#494949',
+                "color-light-green": 'rgba(171, 239, 95, 0.5)'
+              }
+            }
+          }
+        }
+      </script>
+      
+      <style>
+        .manrope-uniquifier {
+            font-family: "Manrope", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+}
+
+      </style>
+</head>
+<body class="manrope-uniquifier">
+    <header class="lg:container lg:mx-auto max-sm:pl-2.5">
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+
+                    <div tabindex="0" role="button" class="btn btn-ghost ">             
+                        <i class="fa-solid fa-arrow-right  bg-color-green text-xl py-1 -rotate-45  px-2 -rotate45 padding rounded-full"></i>
+                      <a class="btn btn-ghost text-3xl  font-bold">Rinterio</a>
+                    </div>
+                    
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li class="font-semibold"><a>Home</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Portfolio</a></li>
+                        <li><a href="">Blogs</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                    <div class="navbar-end">
+                        <div class="flex items-center gap-5  ">
+                             <i class="fa-solid hidden lg:inline-block fa-magnifying-glass bg-[#e8e8e8] p-2.5 rounded-full"></i>
+                            <i class="fa-solid hidden lg:inline-block fa-cart-shopping bg-[#e8e8e8] p-2.5 rounded-full"></i>
+                        <div class="">
+                            <a class="btn hidden lg:inline py-3 rounded-[32px] px-5 text-center bg-color-green text-2xl  ">Book Consult <i class="ml-[5px] px text-2xl  fa-solid fa-circle-arrow-right -rotate-45"></i> </a> 
+                               
+                        </div>
+                            <i class=" m-2.5 lg:hidden  fa-solid fa-bars text-2xl"></i>
+                        
+                        
+                         </div>
+                    </div>
+            
+                </div>    
+            </div>
+        </nav>
+<!-- this is the main section of header  -->
+        <section class="pr-3">
+            <div>
+                <div class="flex justify-center pl-3" >
+                    <img class="w-fit text-center" src="assets/banner.png" alt="">
+                </div>
+                <div>
+                    <h1 class="lg:text-6xl text-3xl font-extrabold px-3 text-center text-[#212121]">A barn house of this design has a striking appearance</h1>
+                    <p class="text-center text-color-gray font-medium mt-4 mb-5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                </div>
+                <div class="text-center ">
+                    <button class="bg-color-light-green py-3 px-6 rounded-[32px] text-xl font-bold">View Details <i class="fa-solid fa-arrow-right  bg-color-green text-xl py-1 -rotate-45  px-2 -rotate45 padding rounded-full"></i> </button>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- this is main section  -->
+     <main></main>
+     <!-- this is footer section  -->
+      <footer></footer>
+</body>
+</html>
